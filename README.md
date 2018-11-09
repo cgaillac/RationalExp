@@ -1,4 +1,4 @@
-# RationalExp Package
+# RationalExp: Tests of and Deviations from Rational Expectations
 
 The R package RationalExp is associated to D’Haultfoeuille, Gaillac, and Maurel (2018). This package implements a test of the rational
 expectations hypothesis based on the marginal distributions of realizations and subjective beliefs. This test can be used in cases where realizations and subjective beliefs are
