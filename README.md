@@ -1,7 +1,7 @@
 # RationalExp: Rationalizing Rational Expectations? Tests and Deviations.
 
 IMPORTANT: Please download this package directly from CRAN at 
-https://cran.r-project.org/web/packages/RationalExp/index.html and installed direclty using the command line in R: install.packages("RationalExp").
+https://cran.r-project.org/web/packages/RationalExp/index.html and installed using the command line in R: install.packages("RationalExp").
 
 
 The R package RationalExp is associated to D'Haultfoeuille, Gaillac, and Maurel (2018) https://www.nber.org/papers/w25274. This package implements a test of the rational expectations hypothesis based on the marginal distributions of realizations and subjective beliefs. This test can be used in cases where realizations and subjective beliefs are
