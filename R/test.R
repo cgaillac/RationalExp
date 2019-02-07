@@ -44,7 +44,7 @@
 #'
 #'  - T_reps, the vector of bootstraped test statitics.
 #' @references
-#' D’Haultfoeuille X, Gaillac C, Maurel A (2018). “Rationalizing Rational Expectations? Tests and Deviations.” CREST Working paper
+#' D’Haultfoeuille X, Gaillac C, Maurel A (2018). “Rationalizing Rational Expectations? Tests and Deviations.” NBER Working paper <doi:10.3386/w25274>
 #'
 #' Andrews D, Shi X (2017). “Inference Based on Many Conditional Moment Inequalities.” Journal of Econometrics, 196(2), 275–287.
 #'
@@ -52,7 +52,7 @@
 #'
 #' @export
 #' @examples ## The RE test without covariates
-#'n_p=1200
+#'n_p=600
 #'n_y=n_p
 #'N <- n_y + n_p
 #'rho <-0.29
@@ -76,8 +76,7 @@
 #'D <- rbind(matrix(1,n_y,1),matrix(0,n_p,1))
 #'Y_tilde <- rbind(matrix(y,n_y,1),matrix(psi,n_p,1))
 #'
-#'
-#'res <- test(Y_tilde ,D)
+#'#res <- test(Y_tilde ,D)
 #'
 #'
 test <-  function(Y_tilde,D,X =matrix(1,length(Y_tilde),1),weights=rep(1/length(Y_tilde),length(Y_tilde)),generalized= "No",nbCores=1, tuningParam=NULL){
